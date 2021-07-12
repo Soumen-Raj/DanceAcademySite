@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 25px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+}
+#navbar{
+    background-color:#2af0b5;
+    padding: 11px 9px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style:none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color: white;
+}
+
+#introSection{
+    height: 300px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+#introSection div.small{
+    font-size: 25px;
+    padding: 5px;
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color:  rgb(214, 145, 151);
+
+}
+#missionSection{
+    height: 340px;
+}
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 23px;
+    height: 209px;
+    background-color:#aec0d8;
+    
+}
+.card h3{
+    text-align: center;
+    margin:  15px 12px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#sponcers{
+    height: 155px;
+    max-width: 1000px;
+    margin: 23px auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
